@@ -1,0 +1,1162 @@
+/* small mobile devices  */
+
+@media screen and ( min-width: 320px)and ( max-width: 410px) {
+
+    /* navbar  */
+   
+     .site-navbar {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      min-height: 60px;
+     }
+     
+     .site-navbar ul {
+       position: absolute;
+       width: 100%;
+       height: calc(50vh - 40px);
+       left: 0;
+       top: 60px;
+       flex-direction: column;
+       align-items: center;
+       border-top: 1px solid #444;
+       background-color: rgba(0,0,0,.75);
+       max-height: 0;
+       overflow: hidden;
+       transition: .3s;
+     }
+
+
+     .site-navbar ul li {
+       width: 100%;
+       text-align: center;
+     }
+     .site-navbar ul li a {
+       padding: 25px;
+     }
+     .site-navbar ul li a:hover {
+       background-color: rgba(255,255,255,.1);
+     }
+     .site-navbar ul.open {
+       max-height: 100vh;
+       overflow: visible;
+     }
+     .intro-area h2 {
+       font-size: 36px;
+       margin-bottom: 15px;
+     }  
+
+   
+   
+   /*  nav-bar logo */
+   
+     a.site-logo {
+       font-size: 24px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin: 0px 90px 0px 0px ;
+   
+   
+     }
+   
+      /* nav-toggler  */
+     .nav-toggler {
+       display: block;
+       border: 1px solid #fff;
+       padding: 5px;
+       background-color: transparent;
+       cursor: pointer;
+       border-radius: 5px;
+       height: 39px;
+     }
+   
+    
+    /* slide Gallery  */
+   
+     .images{
+       width: 100% ;
+       height: 210px;
+   }
+   .prev,
+   .next {
+     cursor: pointer;
+     position: absolute;
+     top: 27%;
+     margin: 5px;
+     width: auto;
+     padding: 16px;
+     margin-top: -50px;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+     -webkit-user-select: none;
+   }
+
+
+   .fa {
+    display: block;
+   }
+
+    /* dropdown  */
+
+
+   .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    background-color: #f1f1f1;
+    height: 240px;
+    width: 240px;
+    overflow: auto;
+    border-radius: 10%;
+    margin: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transform: translate(-20%,-30%);
+  
+    
+  }
+  
+  .dropdown-content #login {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #000000;
+    color: white;
+    border-radius: 50%;
+    width: 70%;
+    text-align: center;
+    margin: 20px 0px 20px 22px;
+    
+  }
+  
+  #msg_rgs{
+    width: 75%;
+    margin-left: 20px;
+  
+  }
+  .dropdown-content #login:hover {
+  background-color: rgba(8, 8, 8, 0.719);
+  ;
+    
+  }
+  .dropdown a:hover {background-color: #ddd;}
+  #system_m{
+    margin-top:30px;
+  }
+  .show {
+    display: block;
+    position: absolute;
+  }
+  
+  .profile{
+    width: 50px;
+    margin-right: 0px;
+  
+  }
+
+   #logo_footer{
+    margin-top: 40px;
+    font-size: 30px;
+   }
+   #br{
+    display: block;
+   }
+   .copyright p {
+    font-size: 0.7em;
+    text-align: right;
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+   
+   
+   
+@media screen and ( min-width: 410px)and ( max-width: 480px) {
+      /* navbar  */
+   
+      .site-navbar {
+        min-height: 60px;
+      }
+      .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        height: calc(42vh - 100px);
+        left: 0;
+        top: 60px;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid #444;
+        background-color: rgba(0,0,0,.75);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+      }
+      .site-navbar ul li {
+        width: 100%;
+        text-align: center;
+      }
+      .site-navbar ul li a {
+        padding: 25px;
+      }
+      .site-navbar ul li a:hover {
+        background-color: rgba(255,255,255,.1);
+      }
+      .site-navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
+      }
+      .intro-area h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+      }  
+    
+    
+    /*  nav-bar logo */
+    
+      a.site-logo {
+        font-size: 24px;
+        font-weight: 800;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 135px;
+    
+      }
+    
+       /* nav-toggler  */
+      .nav-toggler {
+        display: block;
+        border: 1px solid #fff;
+        padding: 5px;
+        background-color: transparent;
+        cursor: pointer;
+        border-radius: 5px;
+        height: 39px;
+      }
+    
+     
+     /* slide Gallery  */
+    
+      .images{
+        width: 100% ;
+        height: 250px;
+    }
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 20%;
+      margin: 5px;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+}
+
+/*  larger moblie devices */
+  
+@media screen and (min-width: 480px) and (max-width:576px) {
+  
+  
+    /* navbar  */
+   
+     .container {
+       max-width: 720px;
+     }
+     .site-navbar {
+       min-height: 60px;
+     }
+     .site-navbar ul {
+       position: absolute;
+       width: 100%;
+       height: calc(57vh - 100px);
+       left: 0;
+       top: 60px;
+       flex-direction: column;
+       align-items: center;
+       border-top: 1px solid #444;
+       background-color: rgba(0,0,0,.75);
+       max-height: 0;
+       overflow: hidden;
+       transition: .3s;
+     }
+     .site-navbar ul li {
+       width: 100%;
+       text-align: center;
+     }
+     .site-navbar ul li a {
+       padding: 25px;
+     }
+     .site-navbar ul li a:hover {
+       background-color: rgba(255,255,255,.1);
+     }
+     .site-navbar ul.open {
+       max-height: 100vh;
+       overflow: visible;
+     }
+     .intro-area h2 {
+       font-size: 36px;
+       margin-bottom: 15px;
+     }  
+   
+      /*  nav-bar logo */
+   
+      a.site-logo {
+        font-size: 25px;
+        font-weight: 800;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 170px;
+    
+      }
+       /* navbar toggler  */
+   
+       .nav-toggler{
+         display: block;
+       }
+    
+   
+       /* slide Gallery  */
+   
+       .images{
+         width: 100% ;
+         height: 320px;
+         
+     }
+     
+     .prev,
+     .next {
+       cursor: pointer;
+       position: absolute;
+       top: 30%;
+       width: auto;
+       padding: 16px;
+       margin-top: -50px;
+       color: white;
+       font-weight: bold;
+       font-size: 20px;
+       border-radius: 0 3px 3px 0;
+       user-select: none;
+       -webkit-user-select: none;
+     }
+   
+   }
+   
+
+
+
+/* iPads & tablets  */
+
+@media screen and (min-width: 576px) and (max-width:610px) {
+  
+     /* navbar  */
+   
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(48vh - 100px);
+      left: 0;
+      top: 60px;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid #444;
+      background-color: rgba(0,0,0,.75);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+    .intro-area h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }  
+  
+     /*  nav-bar logo */
+  
+     a.site-logo {
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin-left: 198px;
+   
+     }
+      /* navbar toggler  */
+  
+      .nav-toggler{
+        display: block;
+      }
+   
+  
+      /* slide Gallery  */
+  
+      .images{
+        width: 100% ;
+        height: 350px;
+        
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 25%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  
+
+
+  }
+
+
+  @media screen and (min-width: 610px) and (max-width:650px) {
+  
+    /* navbar  */
+   
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(42vh - 100px);
+      left: 0;
+      top: 60px;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid #444;
+      background-color: rgba(0,0,0,.75);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+    .intro-area h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }  
+  
+     /*  nav-bar logo */
+  
+     a.site-logo {
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin-left: 220px;
+   
+     }
+      /* navbar toggler  */
+  
+      .nav-toggler{
+        display: block;
+      }
+   
+  
+      /* slide Gallery  */
+  
+      .images{
+        width: 100% ;
+        height: 350px;
+        
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 25%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  
+  }
+
+
+
+
+
+
+@media screen and (min-width: 650px) and (max-width:710px) {
+
+  /* navbar  */
+   
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(44vh - 100px);
+      left: 0;
+      top: 60px;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid #444;
+      background-color: rgba(0,0,0,.75);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+    .intro-area h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }  
+  
+     /*  nav-bar logo */
+  
+     a.site-logo {
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin-left: 240px;
+   
+     }
+      /* navbar toggler  */
+  
+      .nav-toggler{
+        display: block;
+      }
+   
+  
+      /* slide Gallery  */
+  
+      .images{
+        width: 100% ;
+        height: 350px;
+        
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 22%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  
+  }
+
+
+
+@media screen and (min-width: 710px) and (max-width:750px) {
+
+    /* navbar  */
+     
+      .site-navbar {
+        min-height: 60px;
+      }
+      .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        height: calc(45vh - 100px);
+        left: 0;
+        top: 60px;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid #444;
+        background-color: rgba(0,0,0,.75);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+      }
+      .site-navbar ul li {
+        width: 100%;
+        text-align: center;
+      }
+      .site-navbar ul li a {
+        padding: 25px;
+      }
+      .site-navbar ul li a:hover {
+        background-color: rgba(255,255,255,.1);
+      }
+      .site-navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
+      }
+      .intro-area h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+      }  
+    
+       /*  nav-bar logo */
+    
+       a.site-logo {
+         font-size: 25px;
+         font-weight: 800;
+         color: #fff;
+         text-decoration: none;
+         margin-left: 270px;
+     
+       }
+        /* navbar toggler  */
+    
+        .nav-toggler{
+          display: block;
+        }
+     
+    
+        /* slide Gallery  */
+    
+        .images{
+          width: 100% ;
+          height: 380px;
+          
+      }
+      
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+    
+    }
+
+  
+@media screen and (min-width: 750px) and (max-width:800px) {
+
+      /* navbar  */
+       
+        .site-navbar {
+          min-height: 60px;
+        }
+        .site-navbar ul {
+          position: absolute;
+          width: 100%;
+          height: calc(43vh - 100px);
+          left: 0;
+          top: 60px;
+          flex-direction: column;
+          align-items: center;
+          border-top: 1px solid #444;
+          background-color: rgba(0,0,0,.75);
+          max-height: 0;
+          overflow: hidden;
+          transition: .3s;
+        }
+        .site-navbar ul li {
+          width: 100%;
+          text-align: center;
+        }
+        .site-navbar ul li a {
+          padding: 25px;
+        }
+        .site-navbar ul li a:hover {
+          background-color: rgba(255,255,255,.1);
+        }
+        .site-navbar ul.open {
+          max-height: 100vh;
+          overflow: visible;
+        }
+        .intro-area h2 {
+          font-size: 36px;
+          margin-bottom: 15px;
+        }  
+      
+         /*  nav-bar logo */
+      
+         a.site-logo {
+           font-size: 25px;
+           font-weight: 800;
+           color: #fff;
+           text-decoration: none;
+           margin-left: 290px;
+       
+         }
+          /* navbar toggler  */
+      
+          .nav-toggler{
+            display: block;
+          }
+       
+      
+          /* slide Gallery  */
+      
+          .images{
+            width: 100% ;
+            height: 400px;
+            
+        }
+        
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 27%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+      
+      }
+    
+    
+@media screen and (min-width: 800px) and (max-width:876px) {
+
+  /* navbar  */
+   
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(42vh - 100px);
+      left: 0;
+      top: 60px;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid #444;
+      background-color: rgba(0,0,0,.75);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+    .intro-area h2 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }  
+  
+     /*  nav-bar logo */
+  
+     a.site-logo {
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin-left: 330px;
+   
+     }
+      /* navbar toggler  */
+  
+      .nav-toggler{
+        display: block;
+      }
+   
+  
+      /* slide Gallery  */
+  
+      .images{
+        width: 100% ;
+        height: 400px;
+        
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 27%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  
+  }
+
+
+
+/* small screens laptop */  
+@media screen and (min-width: 876px) and (max-width:1024px) {
+
+  /* navbar  */
+
+  
+     /*  nav-bar logo */
+  
+     a.site-logo {
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin-left: 50px;
+   
+     }
+
+  
+      /* slide Gallery  */
+  
+      .images{
+        width: 100% ;
+        height: 540px;
+        
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 37%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  
+  }
+
+
+
+
+
+
+/* small desktop */
+@media screen and (min-width: 1024px) and (max-width:1280px) {
+
+  /* navbar  */
+
+  
+     /*  nav-bar logo */
+  
+     a.site-logo {
+       font-size: 25px;
+       font-weight: 800;
+       color: #fff;
+       text-decoration: none;
+       margin-left: 50px;
+   
+     }
+
+  
+      /* slide Gallery  */
+  
+      .images{
+        width: 100% ;
+        height: 580px;
+        
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 27%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  
+
+
+    #logo_footer{
+      margin-top: 40px;
+      font-size: 38px;
+     }
+    
+     .links_menu {
+      text-align: center;
+    
+     }
+     .data_footer{
+      display: flex;
+      justify-content: center;
+      color: white;
+     }
+    
+     .data_footer p{
+    padding-right: 5px ;
+     }
+     footer {
+      background-color: #121315;
+      color: #a7a7a7;
+      font-size: 16px;
+      padding: 20px 40px 20px 20px;
+    }
+    footer * {
+      font-family: "Poppins", sans-serif;
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+    }
+    .row {
+      padding: 1em 1em;
+    }
+    .row.primary {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 2fr;
+      align-items: stretch;
+    }
+    .column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 2em;
+      min-height: 15em;
+    }
+    .header_footer{
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 1.4em;
+      white-space: nowrap;
+    }
+    .links .links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+    .links li:not(:first-child) {
+      margin-top: 0.8em;
+    }
+    .links  li a {
+      color: #a7a7a7;
+      text-decoration: none;
+    }
+     li a:hover {
+      color: #2a8ded;
+    }
+    
+    
+    div.social {
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.2em;
+      flex-direction: row;
+      margin-top: 0.5em;
+    }
+    .social i {
+      color: #ffffff;
+    }
+    
+    .copyright {
+      padding: 0.3em 1em;
+      background-color: #25262e;
+    }
+    .footer-menu{
+      float: left;
+        margin-top: 10px;
+    }
+    
+    .footer-menu a{
+      color: #cfd2d6;
+      padding: 6px;
+    
+      text-decoration: none;
+    }
+    .footer-menu a:hover{
+      color: #27bcda;
+    }
+    .copyright p {
+      font-size: 0.9em;
+      text-align: right;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    
+    .social ul li {
+      margin: 10px;
+      float:left;
+    }
+    
+    .wp-icon {
+    width: 35px;
+    height: px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    color: #fff;
+    }
+    
+    .fa-facebook-f {
+    background: #3B5998;
+    }
+    
+    .fa-linkedin {
+    background: #0077B5;
+    }
+    
+    .fa-twitter {
+    background: #1DA1F2;
+    }
+    .fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    }
+    .fa-google-plus {
+    background: #D04338;
+    }
+    .fa-youtube {
+    background: #FF0000;
+    }
+    
+    .fa-pinterest {
+    background: #BD081C;
+    }
+    
+    
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+    footer{
+      float: center;
+    }
+  
+  }
+  
+  
